@@ -1,0 +1,13 @@
+void ajout_unique_airport (struct cell_airports **, struct airpo);
+void ajout_unique_airline (struct cell_airlines **, struct airls);
+void ajout_trie_flight (struct cell_vol **, struct flights);
+void tri_airline (struct airline_delayed tab[], int);
+void show_airports (char *, Hashtable, struct cell_airports *);
+void show_flights (char *, int, int, Hashtable);
+void show_airlines (char *, struct cell_airlines *, Hashtable);
+void changed_flights (int, int, Hashtable);
+void find_itinerary (char *, char *, Hashtable, int, int, int, int);
+void avg_flight_duration (char *, char *, Hashtable);
+void delayed_airline (char *, Hashtable, struct cell_airlines *);
+void most_delayed_fligths (Hashtable);
+void most_delayed_airlines (Hashtable, struct cell_airlines *);
